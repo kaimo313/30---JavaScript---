@@ -8,6 +8,10 @@
  * @return {Function}
  */
 var compose = function (functions) {
+    // 使用 reduceRight
+    // return function (x) {
+    //     return functions.reduceRight((p, c) => c(p), x);
+    // };
     return function (x) {
         if (functions.length === 0) return x;
         let input = x;
