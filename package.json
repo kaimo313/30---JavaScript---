@@ -1,0 +1,23 @@
+{
+  "name": "30-Day-JavaScript-Challenge",
+  "version": "1.0.0",
+  "description": "专为 JavaScript 初学者设计",
+  "main": ".prettierrc.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build": "node ./build/generate-md.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaimo313/30---JavaScript---.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaimo313/30---JavaScript---/issues"
+  },
+  "homepage": "https://github.com/kaimo313/30---JavaScript---#readme"
+}
